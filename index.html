@@ -1,24 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My first Vue app</title>
-  <script src="https://unpkg.com/vue@next"></script>
-  <link href="stylesheet.css" rel="stylesheet" type="text/css">
+  <title>Statistics website</title>
+  <script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
 </head>
 <body>
-    <div id="hello-vue" class="demo">
-        {{ message }}
-    </div>
-    
-    <script>
-        const HelloVueApp = {
-            data() {
-                return {
-                    message: 'Hello Vue!!'
-                }
-            }
-        }
-        Vue.createApp(HelloVueApp).mount('#hello-vue')
-    </script>
+    <div class="bingwidget" data-type="covid19" data-market="en-us" data-language="en-us" data-app="bingwidget"></div>
 </body>
 </html>
